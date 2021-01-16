@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainDiv{
+    background-color: chocolate;
+    max-width: 1300px;
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: blue;
+}
+.div1{
+    color: red;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#div2{
+    color: blueviolet;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.div3 p{
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(17, 75, 7);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.box{
+    border-radius: 20px 60px 20px 60px;
+    margin: 20px 0 0 30px;
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(80,8,131,1) 54%, rgba(0,212,255,1) 100%);;
+}
+.box:hover{
+    background: #BA0021;
+    transition: 1.5s;
+}
+ul li{
+    list-style: none;
+    padding: 5px;
+}
+ul li a{
+    font-size: 30px;
+    color: darkblue;
+    text-decoration: none;
+}
+ul li:nth-child(even) a{
+    color: rgba(0,212,255,1);
+}ul li:nth-child(odd) a{
+    color: rgb(203, 18, 228);
+}
+ul.header_menu li{
+    margin: 10px;
+    border-radius: 20px;
+    background: red;
+    padding: 10px;
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+ul.header_menu li a{
+    font-size: 30px;
+    color: rgb(9, 175, 147);
+    text-decoration: none;
+}
+ul.header_menu:hover li{
+    background: rgb(0, 50, 200);
+}
+}
+ul.header_menu li:nth-child(1) a{
+    color: black;
+}
+ul.header_menu li:nth-child(2) a{
+    color: rgb(97, 235, 189);
+}
+ul.header_menu li:nth-child(3) a{
+    color: rgb(111, 255, 28);
+}
+ul.header_menu li:nth-child(4) a{
+    color: rgb(251, 251, 251);
+}
+.footer_menu li{
+    list-style: none;
+    padding: 5px;
+}
+.footer_menu li a{
+    font-size: 30px;
+    color:#8BC34A;
+    text-decoration: none;
+}
+.footer_menu li:first-child a{
+    color: rgba(0,212,255,1);
+}
+.footer_menu li:nth-child(2) a{
+    color: rgb(0, 0, 0);
+}
+
+.footer_menu li:last-child a{
+    color: rgb(39, 17, 235);
+}
